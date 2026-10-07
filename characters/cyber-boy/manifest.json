@@ -1,0 +1,89 @@
+{
+  "character_name": "Cyber Boy",
+  "description": "黒髪に青い差し色、大きなヘッドホンのCyber Boy。腕を組んで考え、顔を上げて気づき、手を開いて結果を伝える動き。",
+  "format": "Pets v2 transparent PNG sprite sheet",
+  "sprite": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "required_frames": 73,
+    "unused_transparent_cells": 15,
+    "row_frame_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "row_states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review",
+      "look-000-to-157.5",
+      "look-180-to-337.5"
+    ]
+  },
+  "state_semantics": {
+    "running": "Active task work: focused arms-crossed thinking",
+    "review": "Inspecting completed output, recognition and an open-hand presentation gesture"
+  },
+  "registration_status": "registered; no activation performed in this collection update",
+  "files": [
+    {
+      "file": "assets/spritesheet.png",
+      "size_bytes": 2719461,
+      "sha256": "c3c03a439ba220e0b5f395e84c483dbc7e298aec7f697a703741797866c55b91",
+      "width": 1536,
+      "height": 2288
+    },
+    {
+      "file": "previews/preview.mp4",
+      "size_bytes": 822329,
+      "sha256": "b65ca4cee26b18acd07d2f2702120ca59b6cc514cad93e498ad29edaf93e585a"
+    },
+    {
+      "file": "previews/preview.gif",
+      "size_bytes": 7949949,
+      "sha256": "bfccd284646feec7ae32363b3771f675170bd62cf35b8a5dc8eeacf8f275d427",
+      "width": 424,
+      "height": 492,
+      "preview_frames": 146
+    },
+    {
+      "file": "previews/preview-stills.png",
+      "size_bytes": 398881,
+      "sha256": "e8899a133eab804ff2f7129488f470724c42c6418b62148145dc180d26746228",
+      "width": 1696,
+      "height": 492
+    },
+    {
+      "file": "previews/contact-sheet.png",
+      "size_bytes": 700337,
+      "sha256": "2343322a235c7bef288fe4a5d977889cebd69264e656949c517f44c348e4c77a",
+      "width": 768,
+      "height": 1386
+    },
+    {
+      "file": "previews/look-directions.png",
+      "size_bytes": 903072,
+      "sha256": "c7fc3fd1b53dfb7cd54cdddba320c446e00b67ec1efb5d1e1f070e212b271ff7",
+      "width": 1536,
+      "height": 1170
+    }
+  ]
+}

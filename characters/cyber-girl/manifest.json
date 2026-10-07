@@ -1,0 +1,89 @@
+{
+  "character_name": "Cyber Girl",
+  "description": "白いウェーブヘアに赤い差し色、大きなヘッドホンのCyber Girl。考える仕草やひらめきで作業を見守ります。",
+  "format": "Pets v2 transparent PNG sprite sheet",
+  "sprite": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "required_frames": 73,
+    "unused_transparent_cells": 15,
+    "row_frame_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "row_states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review",
+      "look-000-to-157.5",
+      "look-180-to-337.5"
+    ]
+  },
+  "state_semantics": {
+    "running": "thinking and focused work",
+    "review": "inspection and recognition"
+  },
+  "registration_status": "registered; no activation performed in this collection update",
+  "files": [
+    {
+      "file": "assets/spritesheet.png",
+      "size_bytes": 3293738,
+      "sha256": "6a846b1d7030b7907f2fec29d1c988ee76ca057ef92ba4430f65e2618022ed88",
+      "width": 1536,
+      "height": 2288
+    },
+    {
+      "file": "previews/preview.mp4",
+      "size_bytes": 1062683,
+      "sha256": "96276af280cb445cf281eb7e8e08e1e9861ce4a0818b5cfe702169a417843208"
+    },
+    {
+      "file": "previews/preview.gif",
+      "size_bytes": 9246845,
+      "sha256": "497fe7b34a10830df2c1a6df0a0821b4a99d8233122b5cd59c20eccf321d97d9",
+      "width": 424,
+      "height": 492,
+      "preview_frames": 146
+    },
+    {
+      "file": "previews/preview-stills.png",
+      "size_bytes": 484235,
+      "sha256": "e14272095434a1e5568a02d269e95c98286110349eb9e02cbb686833cef44f91",
+      "width": 1696,
+      "height": 492
+    },
+    {
+      "file": "previews/contact-sheet.png",
+      "size_bytes": 801301,
+      "sha256": "62e7e14d566fb92c2632ed81cabae6e24461da9dd8c588d6c7e64c2f2fbb5a49",
+      "width": 768,
+      "height": 1386
+    },
+    {
+      "file": "previews/look-directions.png",
+      "size_bytes": 978912,
+      "sha256": "d999d51cf18ebacb14b7cd9f91fff5c5aafe0be5f6e2ded364eed5573f29969d",
+      "width": 1536,
+      "height": 1170
+    }
+  ]
+}

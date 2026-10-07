@@ -1,0 +1,114 @@
+{
+  "character_name": "cat",
+  "description": "写真のような毛並みのキジトラ猫。通常のまばたき、目を見開くひらめき、首を傾げる考え中の表情で作業を見守ります。",
+  "format": "Pets v2 transparent PNG sprite sheet",
+  "sprite": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "required_frames": 73,
+    "unused_transparent_cells": 15,
+    "row_frame_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "row_states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review",
+      "look-000-to-157.5",
+      "look-180-to-337.5"
+    ]
+  },
+  "state_semantics": {
+    "idle": "deadpan normal blink",
+    "running": "puzzled thinking",
+    "review": "wide-eyed aha / result recognition",
+    "waiting": "expectant needs-input low-paw gesture"
+  },
+  "registration_status": "registered; no activation performed in this collection update",
+  "files": [
+    {
+      "file": "assets/concept.png",
+      "size_bytes": 2463099,
+      "sha256": "2ddd1a999d04db884d9a9dae1e2ae7fdb97e85064c50cfaa676a64e0b79807db",
+      "width": 2009,
+      "height": 783
+    },
+    {
+      "file": "assets/spritesheet.png",
+      "size_bytes": 2585705,
+      "sha256": "8196c04a7dd7f00f10ac156c7e26184b84b0215389d027880858de320db601c2",
+      "width": 1536,
+      "height": 2288
+    },
+    {
+      "file": "previews/preview.mp4",
+      "size_bytes": 277752,
+      "sha256": "070e534f85cae35c5af1c17f897cf238a215172a9db34ea621b796ce82b0905f"
+    },
+    {
+      "file": "previews/preview.gif",
+      "size_bytes": 2937134,
+      "sha256": "a203fde7a402d0b960cccd78a26a3d3daf8122bfd93ba43ec2597f6d6a53e965",
+      "width": 384,
+      "height": 464,
+      "preview_frames": 57
+    },
+    {
+      "file": "previews/preview-stills.png",
+      "size_bytes": 410051,
+      "sha256": "9236300dd2a9e3094aaa81503232c15e38ddb36327ddfce926bd7b3772236f96",
+      "width": 1920,
+      "height": 464
+    },
+    {
+      "file": "previews/contact-sheet.png",
+      "size_bytes": 635985,
+      "sha256": "2be2d69d034280b5b2d14b550c7b8d28a91fd2dcfea910958c74d3e78d0be55d",
+      "width": 768,
+      "height": 1386
+    },
+    {
+      "file": "previews/look-directions.png",
+      "size_bytes": 674380,
+      "sha256": "9ff80e50cd36ac85e72bea6f5f47cafb59c8620bb50c8a99a50ef5b98c6395e5",
+      "width": 1536,
+      "height": 1170
+    },
+    {
+      "file": "previews/look-loop.gif",
+      "size_bytes": 721468,
+      "sha256": "6209b0fea73773e381947ee8c349fc3b4119c18bb2106b4fc8d8db2b1ac7d833",
+      "width": 384,
+      "height": 464,
+      "preview_frames": 16
+    },
+    {
+      "file": "previews/idle-jump-idle.gif",
+      "size_bytes": 149586,
+      "sha256": "9db6543a8f0583423f4b2cadcc56d88714bfe1965ed251a9f7a3235b368b36fc",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 17
+    }
+  ]
+}

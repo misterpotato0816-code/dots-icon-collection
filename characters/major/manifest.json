@@ -1,0 +1,229 @@
+{
+  "character_name": "少佐",
+  "format": "Pets v2 transparent PNG sprite sheet",
+  "source_revision": "existing delivered artwork, preserved without visual edits",
+  "sprite": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "required_frames": 73,
+    "unused_transparent_cells": 15,
+    "row_frame_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "row_states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review",
+      "look-000-to-157.5",
+      "look-180-to-337.5"
+    ]
+  },
+  "files": [
+    {
+      "file": "extras/aha-stills.png",
+      "size_bytes": 186574,
+      "sha256": "ee944d892c2ef8873132e4ba73282f53925263bcf61dc87c6734041cc93334bf",
+      "width": 1152,
+      "height": 232
+    },
+    {
+      "file": "extras/aha.gif",
+      "size_bytes": 53191,
+      "sha256": "ae16751040da763fa880cd6513f553a76c6ac848d4be96d64ee9a5b33571d085",
+      "width": 192,
+      "height": 232,
+      "preview_frames": 6
+    },
+    {
+      "file": "extras/aha.mp4",
+      "size_bytes": 23374,
+      "sha256": "9d3e57d1a4d0696da407ea92b3456083aad49d1463379737266ed1a5cc89dd19"
+    },
+    {
+      "file": "previews/all-states.gif",
+      "size_bytes": 823619,
+      "sha256": "f2494e528b20da01f3ee47d1eaf6d9776a490a513ab5a37ae1e79c4aaa1f8ad5",
+      "width": 192,
+      "height": 232,
+      "preview_frames": 114
+    },
+    {
+      "file": "previews/all-states.mp4",
+      "size_bytes": 160197,
+      "sha256": "aade3256cb8ad9f0aa2b99ca734c019774f35cff52e89fc844119fcb60d79cd0"
+    },
+    {
+      "file": "previews/contact-sheet.png",
+      "size_bytes": 572493,
+      "sha256": "7ca05857701335056410c93e45821a4a8371577f56fc78e020a4504464c4274b",
+      "width": 768,
+      "height": 1386
+    },
+    {
+      "file": "previews/direction-sheet.png",
+      "size_bytes": 657310,
+      "sha256": "f2e6d5b0115376887e153703489bfe2818c9d32882f064b28c1e22f9d416f74f",
+      "width": 1536,
+      "height": 1170
+    },
+    {
+      "file": "previews/failed.gif",
+      "size_bytes": 67686,
+      "sha256": "68ae1bd83ad7707d64d58f863952a8c5b9f8549b0749e36536037cec2bfe8e83",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 8
+    },
+    {
+      "file": "extras/flex-stills.png",
+      "size_bytes": 196485,
+      "sha256": "ef5efaf9d7c122ed7590fbae47cfe701f38863ec6176faed95b1cb77a154de0b",
+      "width": 1152,
+      "height": 232
+    },
+    {
+      "file": "extras/flex.gif",
+      "size_bytes": 57714,
+      "sha256": "394ed90666aaf63b0f7665fbab56b9835a3cec3681909d7e5dc0465ae97847e4",
+      "width": 192,
+      "height": 232,
+      "preview_frames": 6
+    },
+    {
+      "file": "extras/flex.mp4",
+      "size_bytes": 24752,
+      "sha256": "6b7c0e754ad266ef32e2c7a2a59b78530da72e24e0c92ae14048727e19763729"
+    },
+    {
+      "file": "previews/idle-jump-idle.gif",
+      "size_bytes": 141453,
+      "sha256": "20684fd6c003307481ebf5f431fd1a3858088a0327e591c9c803d13209de7b63",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 17
+    },
+    {
+      "file": "previews/idle-jump-idle.mp4",
+      "size_bytes": 38496,
+      "sha256": "ae0e9d55f4e37ff3aa8783694b70f1231b5f1e011c8c1c98e846f3b422349ac5"
+    },
+    {
+      "file": "previews/idle.gif",
+      "size_bytes": 49786,
+      "sha256": "e90cd6e514ca3c5c68afeb4d50d71e9cbbdac37f15609aab3055a784eeef0754",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 6
+    },
+    {
+      "file": "previews/jumping.gif",
+      "size_bytes": 41947,
+      "sha256": "c684c787f87b1bca74a8aa7e7f15f65b06a434fa418e74053f856f3a0686e86b",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 5
+    },
+    {
+      "file": "previews/look-loop.gif",
+      "size_bytes": 129855,
+      "sha256": "fb5321327dc3eab1f947b6bdd4835233f6142f096d2cfb5b57fad3dba78a672e",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 16
+    },
+    {
+      "file": "previews/look-loop.mp4",
+      "size_bytes": 39024,
+      "sha256": "f244f46416418ec24ed5096f3af5f87b15d473bbd58a0c5e25077ddcce75a3a1"
+    },
+    {
+      "file": "assets/mascot-transparent.png",
+      "size_bytes": 31717,
+      "sha256": "ab977e0a1b372aa8051840e929109c63d55c19439c065896efbbd4418a434198",
+      "width": 192,
+      "height": 208
+    },
+    {
+      "file": "previews/motion-stills.png",
+      "size_bytes": 124314,
+      "sha256": "a7f89a141eb5b4b2825b157cfc9ec345f409bb814081b48d18489c271103b70e",
+      "width": 960,
+      "height": 232
+    },
+    {
+      "file": "previews/review.gif",
+      "size_bytes": 51997,
+      "sha256": "a1093c891f5b4f86598111ce8a24b213df60f0147779923986a14cdc12203509",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 6
+    },
+    {
+      "file": "previews/running-left.gif",
+      "size_bytes": 62959,
+      "sha256": "1b3a6de6581e39c68580fb83334ab01601b91a433f0ae4a6702f4a234b322823",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 8
+    },
+    {
+      "file": "previews/running-right.gif",
+      "size_bytes": 62972,
+      "sha256": "9d79a2a067e852f819918a72b955da909d8c21bf125769e52e96526f030d4982",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 8
+    },
+    {
+      "file": "previews/running.gif",
+      "size_bytes": 44721,
+      "sha256": "3c68e4745253e58067c1e2b8ce9559f19cdab52d449cafd5ce98658ebad783dc",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 6
+    },
+    {
+      "file": "assets/spritesheet-extended.png",
+      "size_bytes": 2184535,
+      "sha256": "d1f8ea13b09aa7e4316b499987def74a160689653f453bbb2cb8f36666bd86b8",
+      "width": 1536,
+      "height": 2288
+    },
+    {
+      "file": "previews/waiting.gif",
+      "size_bytes": 47954,
+      "sha256": "892c6fcf79bf713efd30bc1d1e4bfeb0a0d6d6734bb1b8cdf9035e718517f7d3",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 6
+    },
+    {
+      "file": "previews/waving.gif",
+      "size_bytes": 35267,
+      "sha256": "5aa0e7d175ea1f9771cc7e671dca9846f3a2da408ddfa3438bbe5d48bb19c575",
+      "width": 192,
+      "height": 208,
+      "preview_frames": 4
+    }
+  ]
+}
